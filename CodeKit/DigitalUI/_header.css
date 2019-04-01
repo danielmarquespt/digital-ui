@@ -1,0 +1,37 @@
+.layout .header {
+background-color: var(--color-neutral-0);
+box-shadow: none;
+left: 0;
+font-size: var(--font-size-xl);
+top: 0;
+z-index: b;
+box-shadow: inset 0px -1px 0px 0px var(--color-neutral-0);
+border-bottom: 1px solid var(--color-neutral-3);
+}
+
+.header .Menu_TopMenu:hover, .header .Menu_TopMenu.Menu_TopMenuActive {
+    border-bottom: var(--border-size-s) solid var(--color-primary);
+    box-shadow: 0px 7px 10px -10px var(--color-primary);
+}
+
+.Menu_TopMenu > div a {
+    font-weight: var(--font-semi-bold);
+
+}
+
+.Menu_TopMenu:hover > div .fa,
+.Menu_TopMenu:hover > div a,
+.Menu_TopMenu:hover > div a:visited {
+   
+}
+
+
+.content-top-title {
+  line-height: 0.8;
+  letter-spacing: -1px;
+  margin-bottom: var(--space-xxl);
+  margin-top: var(--space-l);
+  font-weight: var(--font-xbold);
+  font-size: var(--font-size-display);
+  }
+

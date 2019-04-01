@@ -1,0 +1,67 @@
+
+
+:root {
+    --color-primary: #00ddD9; /*primary-color*/
+    --color-primary-hover: #c20; /*primary-color*/
+    --color-secondary: #1B6EC2; /*primary-color*/
+    --color-background-body: var(--color-neutral-1);
+
+/* ================================================
+TYPE
+  ================================================ */
+    --font-size-base: 14px;
+    --font-size-s: 12px;
+    --font-size-xs: 11px;  
+    
+    
+    --font-size-display: 34px;
+    --font-size-h1: 32px;
+    --font-size-h2: 28px;
+    --font-size-h3: 22px;
+    --font-size-h4: 18px;
+    --font-size-h5: 16px;
+    --font-size-h6: 14px;
+    --font-size-base: 15px;
+    --font-size-s: 13px;
+    --font-size-xs: 12px;
+    --font-size-xxs: 10px;  
+
+    --font-xbold: 800;
+
+   
+
+
+
+/* ================================================
+
+SPACING
+  ================================================ */
+    --space-none: 0;
+    --space-xs: 4px;
+    --space-s: 6px;
+    --space-base: 12px;
+    --space-m: 14px;
+    --space-l: 22px;
+    --space-xl: 32px;
+    --space-xxl: 48px;
+
+
+
+
+/* Color - Neutral */
+    --color-neutral-0: #ffffff;
+    --color-neutral-1: #f8f9fa;
+    --color-neutral-2: #f1f3f5;
+    --color-neutral-3: #e9ecef;
+    --color-neutral-4: #dee2e6;
+    --color-neutral-5: #ced4da;
+    --color-neutral-6: #adb5bd;
+    --color-neutral-7: #868e96;
+    --color-neutral-8: #5c656d;
+    --color-neutral-9: #383C40;
+    --color-neutral-10: #000000;
+    
+    
+    --header-size: 48px;
+}
+
