@@ -9,35 +9,70 @@
 	],
 "creatorBuild": "29156",
 "files": {
-	"/DigitalUI/_header.css": {
-		"aP": 1,
+	"/DigitalUI/_buttons.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/DigitalUI/_header-min.css",
+		"oAP": "/DigitalUI/_buttons.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0,
+		"uL": 1
 		},
-	"/DigitalUI/_styleguide-site.css": {
-		"aP": 1,
+	"/DigitalUI/_header.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/DigitalUI/_styleguide-site-min.css",
+		"oAP": "/DigitalUI/_header.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0,
+		"uL": 1
 		},
-	"/DigitalUI/_vars.css": {
-		"aP": 1,
+	"/DigitalUI/_inputs.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/DigitalUI/_vars-min.css",
+		"oAP": "/DigitalUI/_inputs.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0,
+		"uL": 1
+		},
+	"/DigitalUI/_layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/DigitalUI/_layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/DigitalUI/_styleguide-site.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/DigitalUI/_styleguide-site.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/DigitalUI/_vars.scss": {
 		"aP": 0,
@@ -100,7 +135,7 @@
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 1,
-	"animateCSSInjections": 1,
+	"animateCSSInjections": 0,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,
 	"babel7PresetType": 1,
