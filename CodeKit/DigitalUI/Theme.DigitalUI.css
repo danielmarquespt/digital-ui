@@ -33,6 +33,7 @@
   --space-base:       12px;
   --space-s:          6px;
   --space-xs:         4px;
+  --space-xxs:        2px;
   --space-none:       0;
   /* ================================================  */
   /* COLORS                                            */
@@ -476,8 +477,7 @@ a:visited.link-hover {
   font-size: var(--font-size-xl);
   top: 0;
   z-index: b;
-  box-shadow: inset 0px -1px 0px 0px var(--color-neutral-0);
-  border-bottom: 1px solid var(--color-neutral-3);
+  box-shadow: inset 0px -1px 0px 0px var(--color-neutral-3);
   position: static; }
 
 .layout .main {
@@ -800,6 +800,56 @@ select[disabled="disabled"] {
 @media (max-width: 640px) {
   :root {
     --font-size-display: 24px; } }
+
+.query-builder {
+  color: var(--color-neutra-4);
+  border-color: currentColor;
+  margin-top: var(--space-m); }
+
+.query-builder .qb-right {
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse; }
+  .query-builder .qb-right input {
+    padding: 4px;
+    margin: 2px; }
+
+.query-builder .qb-row {
+  height: var(--space-xl);
+  background: var(--color-neutral-3);
+  color: var(--color-neutral-6);
+  border: var(--border-size-s) solid var(--color-neutral-5);
+  padding: 0 var(--space-s); }
+
+.query-builder .qb-row:first-child {
+  border-radius: var(--border-radius-soft) var(--border-radius-soft) 0 0;
+  border-bottom: 0; }
+
+.query-builder .qb-row:last-child {
+  border-radius: 0 0 var(--border-radius-soft) var(--border-radius-soft);
+  border-top: 0; }
+
+.query-builder .qb-is {
+  margin-left: var(--space-s);
+  color: var(--color-neutral-9); }
+
+.query-builder .input {
+  padding: var(--space-xs) var(--space-s);
+  min-width: var(--space-xxl); }
+
+.query-builder .select {
+  padding: var(--space-xxs) var(--space-xxl) var(--space-xs) var(--space-s); }
+
+.query-builder .select,
+.query-builder .input {
+  height: calc(var(--space-xl) - 6px);
+  font-size: var(--font-size-s);
+  line-height: 1.5;
+  margin-left: var(--space-s); }
+
+.query-builder .Button {
+  height: calc(var(--space-xl) - 6px);
+  width: var(--space-xl); }
 
 /* ================================================================ */
 /*  $4 - Patterns                                                   */
